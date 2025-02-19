@@ -228,6 +228,7 @@ audio.addEventListener('ended', nextSong);
 document.getElementById('welcome-btn').addEventListener('click', function () {
   document.getElementById('welcome-screen').style.display = 'none';
   playSong(); // Gọi hàm phát nhạc tự động
+
 });
 
 
@@ -249,11 +250,7 @@ function typeWriterEffect(text, elementId, speed = 130) {
   type();
 }
 
-document.getElementById('welcome-btn').addEventListener('click', function () {
-  document.getElementById('welcome-screen').style.display = 'none';
-  playSong(); // Bắt đầu phát nhạc
 
-});
 
 
 //////////////////////////////////////// để tuyết, mưa,... sẽ được căn chỉnh lại khi kích thước màn hình thay đổi
